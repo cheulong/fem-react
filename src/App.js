@@ -60,6 +60,7 @@ class App extends React.Component {
             this.setState({ breeds: [] });
           }
         })
+        // eslint-disable-next-line no-console
         .catch(console.error);
     } else {
       this.setState({
