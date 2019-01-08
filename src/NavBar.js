@@ -1,5 +1,5 @@
-import React from "react";
-import { Link } from "@reach/router";
+import React from "preact-compat";
+import { Link } from "preact-router";
 
 import styled from "@emotion/styled";
 import { keyframes } from "@emotion/core";
